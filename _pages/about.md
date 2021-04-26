@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Gola</a>. Address. Contacts. Moto. Etc.
+description: B.Sc. in Mechatronics Engineering from <a href="https://www.uni.edu.pe/">UNI</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_circle.png
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
