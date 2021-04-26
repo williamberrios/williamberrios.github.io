@@ -9,7 +9,7 @@ profile:
   image: profile.png
   address: >
     <p>wberriosr@uni.pe<p>
-    <p>123 Lima, Peru</p>
+    <p>Lima, Peru</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
