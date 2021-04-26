@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="#">Gola</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
