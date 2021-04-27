@@ -1,6 +1,6 @@
 ---
-layout: About
-title: about
+layout: about
+title: About
 permalink: /
 description: B.Sc. in Mechatronics Engineering from <a href="https://www.uni.edu.pe/">UNI</a>
 
