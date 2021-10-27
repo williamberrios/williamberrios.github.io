@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-10-01 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Selected to perform a remote research internship in Computer Science at the [Electronic Visualization Laboratory](https://www.evl.uic.edu/) at the University of Illinois at Chicago.
