@@ -1,78 +1,42 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: BNP Paribas Cardif Challenge
+description: First Place Solution - Deep Learning, Transformers 
+img: /assets/img/DSC-BNP/DataScienceChallenge-BNP.png
 importance: 1
-category: work
+category: competitions
 ---
+## Objective: 
+[Competition](https://www.dominodatalab.com/blog/what-can-100-data-scientists-do-in-one-week-answer-a-lot) organized by [BNP Paribas Cardif](https://www.bnpparibascardif.com/en/) & [Domino Datalab](https://www.dominodatalab.com/) and consisted in predicting a food’s nutrient score based on its composition.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p align="center">
+    <img src="/assets/img/DSC-BNP/figure_nutrition.jpg" height = 265 width = 220
+    />
+    <img src="/assets/img/DSC-BNP/nutrition_idx.gif" height = 265 width = 220
+    />
+</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+## Participants: 
+Around 100 students from Chile, Colombia, Peru and Mexico competed in the Data Science Challenge that was developed in Latin America.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Data Available: 
+The amount of carbohydrates, protein, vitamins , provenance, type of packaging, place of production, ingredients as text, etc. Download data [here](https://drive.google.com/drive/folders/1zkY4LemQTTp23WtrIVcA5II_zoUwFmV2?usp=sharing)
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Solution
+All experiements we developed in Kfold validation. See folder 02.Code/ 
++  First we fine-tuned a [Roberta Transformer](https://arxiv.org/abs/1907.11692) only with concatenated text features.
++ After this we trained a lightgbm combining embeddings extracted from the transformer and numerical features.
++ Finally we ensemble kfold predictions for final submission.
 
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+<p align="center">
+    <img src="/assets/img/DSC-BNP/BNP-Training-stages.png"/>
+</p>
+<p align = "center">
+Fig. Training stages: 1. Roberta Finetuning, 2. Kfold - Lightgbm training
+</p>
+
+
+## Code
+See the solution and code in the github [repository](https://github.com/williamberrios/BNP-Paribas-Cardif-Challenge)
