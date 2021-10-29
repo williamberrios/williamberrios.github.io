@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-04-23 07:59:00-0400
+date: 2021-07-02 07:59:00-0400
 inline: true
 ---
 
-Grateful for winning a 'LatinX in AI' registration grant to attend ICLR 2021
+Selected to participate and present results of my internship (UIC) at [EEML summer school](https://www.eeml.eu/home). See presentation [here](https://www.youtube.com/watch?v=rVZKufr2JLU)

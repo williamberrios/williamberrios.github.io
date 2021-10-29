@@ -189,13 +189,26 @@ blockquote {
 
 
 // News
+.news h2 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
 
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
+  
+}
+.news {
+  .date-wrapper {
+    font-weight: 800;
+  }
 }
 
+
+
 .news table th {
+  font-weight: 900; 
   color: var(--global-text-color);
 }
 
