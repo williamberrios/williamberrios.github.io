@@ -10,9 +10,9 @@ category: competitions
 [Competition](https://www.dominodatalab.com/blog/what-can-100-data-scientists-do-in-one-week-answer-a-lot) organized by [BNP Paribas Cardif](https://www.bnpparibascardif.com/en/) & [Domino Datalab](https://www.dominodatalab.com/) and consisted in predicting a food’s nutrient score based on its composition.
 
 <p align="center">
-    <img src="/assets/img/DSC-BNP/figure_nutrition.jpg" height = 265 width = 220
+    <img src="/assets/img/DSC-BNP/figure_nutrition.jpg" height = 265 width = 220 style="max-width: 100%"
     />
-    <img src="/assets/img/DSC-BNP/nutrition_idx.gif" height = 265 width = 220
+    <img src="/assets/img/DSC-BNP/nutrition_idx.gif" height = 265 width = 220 style="max-width: 100%"
     />
 </p>
 
@@ -31,7 +31,7 @@ All experiements we developed in Kfold validation. See folder 02.Code/
 + Finally we ensemble kfold predictions for final submission.
 
 <p align="center">
-    <img src="/assets/img/DSC-BNP/BNP-Training-stages.png"/>
+    <img src="/assets/img/DSC-BNP/BNP-Training-stages.png" style="max-width: 100%" />
 </p>
 <p align = "center">
 Fig. Training stages: 1. Roberta Finetuning, 2. Kfold - Lightgbm training
