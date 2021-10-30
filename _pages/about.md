@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: B.Sc. in Mechatronics Engineering from <a href="https://www.uni.edu.pe/">Universidad Nacional de Ingenieria</a>
+description: B.Sc. in Mechatronics Engineering (Robotics)
 
 profile:
   align: right

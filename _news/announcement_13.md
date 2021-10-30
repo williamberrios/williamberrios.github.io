@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-08-01
+date: 2021-07-02 07:59:00-0400
 inline: true
 ---
 
-Recognition from the **Ministry of Education of Peru** for outstanding participation in machine learning competitions in region. See interview [here](https://www.facebook.com/watch/live/?ref=watch_permalink&v=182623753852489) (Spanish).
+Selected to participate and present results of my internship (UIC) at [EEML summer school](https://www.eeml.eu/home). See presentation [here](https://www.youtube.com/watch?v=rVZKufr2JLU)

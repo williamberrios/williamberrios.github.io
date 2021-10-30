@@ -1,8 +1,6 @@
 ---
 layout: post
-date: 2021-02-01 07:59:00-0400
+date: 2021-01-01 07:59:00-0400
 inline: true
 ---
-
-Awarded with $ 6000 dollars for having obtained the second place at [International Datathon Interbank - Peru](https://www.kaggle.com/c/interbank20)
-
+First place at [Dataton Bancolombia](https://www.kaggle.com/c/datatonbc-2020). Awarded with $ 2000 dollars

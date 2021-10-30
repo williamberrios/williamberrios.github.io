@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-07-02 07:59:00-0400
+date: 2021-05-01
 inline: true
 ---
 
-Selected to participate and present results of my internship (UIC) at [EEML summer school](https://www.eeml.eu/home). See presentation [here](https://www.youtube.com/watch?v=rVZKufr2JLU)
+First place winner at [WiDS Bay Area @ Google Datathon on Kaggle](https://inthecloud.withgoogle.com/kaggle-datathon-google-cloud-21/register.html) organized by Google Cloud and WiDS - Standford.
