@@ -4,7 +4,7 @@ title: BNP Paribas Cardif Challenge
 description: First Place Solution - Deep Learning, Transformers 
 img: /assets/img/DSC-BNP/DataScienceChallenge-BNP.png
 importance: 1
-category: competitions
+category: code
 ---
 ## Objective: 
 [Competition](https://www.dominodatalab.com/blog/what-can-100-data-scientists-do-in-one-week-answer-a-lot) organized by [BNP Paribas Cardif](https://www.bnpparibascardif.com/en/) & [Domino Datalab](https://www.dominodatalab.com/) and consisted in predicting a food’s nutrient score based on its composition.

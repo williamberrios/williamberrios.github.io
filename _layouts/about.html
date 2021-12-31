@@ -8,7 +8,11 @@ layout: default
     <h1 class="post-title">
      {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
     </h1>
-     <p class="desc">{{ page.description }}</p>
+    <p class="desc">{{ page.description }}
+    <!--<br><a class="home-info"><i class="far fa-envelope"></i> Email: wberriosr {at} uni . pe</a><br>
+    -->
+    </p>
+    
   </header>
 
   <article>
@@ -24,19 +28,20 @@ layout: default
       {% endif %}
     </div>
     {% endif %}
-
     <div class="clearfix">
       {{ content }}
-      <p class="home-info"><i class="far fa-envelope"></i> Email: wberriosr {at} uni . pe</p>
-      <p class="home-info"><i class="far fa-file"></i>
+      <a href="mailto: wberriosr@uni.pe">Email</a> / <a href="/assets/pdf/cv_berrios_last.pdf">Resume</a> / <a href="https://www.linkedin.com/in/williamberrios96/">LinkedIn</a> / <a href="https://github.com/williamberrios">GitHub</a> / <a href="https://twitter.com/w33lliam96">Twitter</a>
+      <!--<p class="home-info"><i class="far fa-file"></i>
         Resume: <a target="_blank" href="/assets/pdf/cv_berrios_last.pdf">PDF</a>
        </p>
-
+    -->
     </div>
 
     {% if page.news %}
       {% include news.html %}
     {% endif %}
+
+    {% include competitions.html %}
     <!-- Selected publications 
     {% if page.selected_papers %}
       {% include selected_papers.html %}

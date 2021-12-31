@@ -4,8 +4,8 @@
   {% else %}
   <a href="{{ project.url | relative_url }}">
   {% endif %}
-    <div class="card hoverable">
-      <div class="row g-0">
+    <div class="card hoverable" style="height:100%;">
+      <div class="row g-0" style="height:100%;">
         {% if project.img %}
         <div class="card-img col-md-6">
           <img src="{{ project.img | relative_url }}" alt="project thumbnail">
@@ -14,8 +14,8 @@
         {% else %}
         <div class="col-md-12">
         {% endif %}
-          <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+          <div class="card-body" style="padding:1.25rem 0;">
+            <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}

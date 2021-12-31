@@ -1,11 +1,11 @@
 ---
 layout: page
-title:  Projects
-permalink: /projects/
+title:  Code
+permalink: /code/
 description: 
 nav: true
-display_categories: [competitions,research]
-horizontal: false
+display_categories: [code]
+horizontal: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

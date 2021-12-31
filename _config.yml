@@ -32,7 +32,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 950px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -101,7 +101,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 15
+news_limit: 4
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
