@@ -5,4 +5,4 @@ inline: true
 ---
 
 Accepted as poster presenter at [EEML](https://www.eeml.eu/home) Summer School. 
-[Poster](https://www.youtube.com/watch?v=rVZKufr2JLU)
+[Poster](https://www.youtube.com/watch?v=rVZKufr2JLU) 🎥
