@@ -25,7 +25,7 @@ Hi, I am recent graduate from mechatronics engineering. Recently, I worked as a 
 {: style="text-align: justify" }
 
 {: style="text-align: justify" }
-My research interests lies in building robust and generalizable computer vision systems with minimal or no supervision. Specific areas of interests are representation learning, unsupervised learning, few-shot learning and robotics 🤖.
+My research interests lie in building robust and generalizable computer vision systems with minimal or no supervision. Specific areas of interest are representation learning, unsupervised learning, few-shot learning and robotics 🤖.
 {: style="text-align: justify" }
 
 {: style="text-align: justify" }
