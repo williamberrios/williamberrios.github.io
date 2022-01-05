@@ -21,7 +21,7 @@ Hi, I am a former research intern at the [Electronic Visualization Lab]from Univ
 My research interests are machine learning, computer vision, few-shot learning, deep unsupervised learning and robotics. I am looking forward to pursue a Phd in Computer Science :) 
 -->
 {: style="text-align: justify" }
-Hi, I am recent graduate from mechatronics engineering. Recently, I worked as a computer vision research intern at [Electronic Visualization Laboratory](https://www.evl.uic.edu/)  under the supervision of Prof. [Elisabeta Marai](https://cs.uic.edu/profiles/g-marai/). Previously, I completed my bachelor at [National University of Engineering - Peru](https://www.uni.edu.pe/) where I was advised by Prof.[Alberto Coronado](https://pe.linkedin.com/in/albertocoronado){:target="\_blank"}.
+Hi, I am a bachelor in mechatronic engineering. Recently, I worked as a computer vision research intern at [Electronic Visualization Laboratory](https://www.evl.uic.edu/)  under the supervision of Prof. [Elisabeta Marai](https://cs.uic.edu/profiles/g-marai/). Previously, I completed my bachelor at [National University of Engineering - Peru](https://www.uni.edu.pe/) where I was advised by Prof.[Alberto Coronado](https://pe.linkedin.com/in/albertocoronado){:target="\_blank"}.
 {: style="text-align: justify" }
 
 {: style="text-align: justify" }
