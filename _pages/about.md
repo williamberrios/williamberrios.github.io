@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: B.Sc. in Mechatronics Engineering (Robotics)
+description: 
 
 profile:
   align: right
@@ -14,22 +14,25 @@ competitions: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+
+
 <!--
 {: style="text-align: justify" }
-Hi, I am a former research intern at the [Electronic Visualization Lab]from University of Illinois at Chicago advised by [Prof. Elisabeta Marai](https://cs.uic.edu/profiles/g-marai/). I graduated with a B.S. in Mechatronics Engineering from [National University of Engineering](https://www.uni.edu.pe/){:target="\_blank"} - Lima, Peru in 2019. There, I was adviced by [Prof. Alberto Coronado](https://pe.linkedin.com/in/albertocoronado){:target="\_blank"} working on machine learning detection of mechanical failures.
+Hi, I am a bachelor in mechatronic engineering. Recently,  Previously, I completed my bachelor at [National University of Engineering - Peru](https://www.uni.edu.pe/) where I was advised by Prof.[Alberto Coronado](https://pe.linkedin.com/in/albertocoronado){:target="\_blank"}.
 {: style="text-align: justify" }
-My research interests are machine learning, computer vision, few-shot learning, deep unsupervised learning and robotics. I am looking forward to pursue a Phd in Computer Science :) 
 -->
 {: style="text-align: justify" }
-Hi, I am a bachelor in mechatronic engineering. Recently, I worked as a computer vision research intern at [Electronic Visualization Laboratory](https://www.evl.uic.edu/)  under the supervision of Prof. [Elisabeta Marai](https://cs.uic.edu/profiles/g-marai/). Previously, I completed my bachelor at [National University of Engineering - Peru](https://www.uni.edu.pe/) where I was advised by Prof.[Alberto Coronado](https://pe.linkedin.com/in/albertocoronado){:target="\_blank"}.
+I'm William, a bachelor in Mechatronics Engineering (Robotics 🤖) from [UNI](https://www.uni.edu.pe/). Recently, I have worked as a research intern at the [The Center for Brains, Minds & Machines - MIT](https://cbmm.mit.edu/) advised by PostDoc [Arturo Deza](http://arturodeza.wikidot.com/) examining the potential of Visual Transformers and adversarial training on the modeling of the ventral stream processing. Previously, I worked as a computer vision research intern developing a deep active learning framework to help curators efficiently label biomedical images at the [Electronic Visualization Laboratory](https://www.evl.uic.edu/)  under the supervision of Professor [Elisabeta Marai](https://cs.uic.edu/profiles/g-marai/).
+{: style="text-align: justify" }
+
+
+{: style="text-align: justify" }
+My research interests lie in building robust and generalizable computer vision systems with minimal or no supervision. Specific areas of interest are representation learning, generative modeling, few-shot learning, adversarial robustness and robotics.
 {: style="text-align: justify" }
 
 {: style="text-align: justify" }
-My research interests lie in building robust and generalizable computer vision systems with minimal or no supervision. Specific areas of interest are representation learning, unsupervised learning, few-shot learning and robotics 🤖.
-{: style="text-align: justify" }
-
-{: style="text-align: justify" }
-Eager to contribute to science development in Peru, I am helping organize meetings and conversations with graduate students in computer science at [REPU](https://www.repuprogram.org/). This year, I am looking forward to pursuing a **PhD in Computer Science**  and becoming a **first-generation graduate student** in my family.
+Eager to contribute to science development in Peru, I am actively organizing meetings with graduate students in computer science at [REPU](https://www.repuprogram.org/) for peruvian undergraduates. This year, I am looking forward to pursuing a **PhD in Computer Science**  and becoming a **first-generation graduate student** in my family.
 {: style="text-align: justify" }
 
 
