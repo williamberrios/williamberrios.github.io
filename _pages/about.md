@@ -23,7 +23,7 @@ Hi, I am a bachelor in mechatronic engineering. Recently,  Previously, I complet
 {: style="text-align: justify" }
 -->
 {: style="text-align: justify" }
-I'm William, a bachelor in Mechatronics Engineering (Robotics 🤖) from [UNI](https://www.uni.edu.pe/). Recently, I have worked as a research intern at the [The Center for Brains, Minds & Machines - MIT](https://cbmm.mit.edu/) working with [Arturo Deza](http://arturodeza.wikidot.com/) examining the potential of Visual Transformers and adversarial training on the modeling of the ventral stream processing. Previously, I worked as a computer vision research intern developing a deep active learning framework to help curators efficiently label biomedical images at the [Electronic Visualization Laboratory](https://www.evl.uic.edu/)  under the supervision of Professor [Elisabeta Marai](https://cs.uic.edu/profiles/g-marai/).
+I'm William, a bachelor in Mechatronics Engineering (Robotics 🤖) from [UNI](https://www.uni.edu.pe/). Currently, I am working as a research intern at the [The Center for Brains, Minds & Machines - MIT](https://cbmm.mit.edu/) working with [Arturo Deza](http://arturodeza.wikidot.com/) examining the potential of Visual Transformers and adversarial training on the modeling of the ventral stream processing. Previously, I worked as a computer vision research intern developing a deep active learning framework to help curators efficiently label biomedical images at the [Electronic Visualization Laboratory](https://www.evl.uic.edu/)  under the supervision of Professor [Elisabeta Marai](https://cs.uic.edu/profiles/g-marai/).
 {: style="text-align: justify" }
 
 
