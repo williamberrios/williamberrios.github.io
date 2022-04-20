@@ -4,7 +4,7 @@ title: Automatic review of reports
 description: Deep Learning, Object Detection, LabelImg 
 img: /assets/img/DSC-ENTEL/project_image.jpg
 importance: 2
-category: code
+category: Competitions
 ---
 
 ## Objective

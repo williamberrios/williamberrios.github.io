@@ -4,7 +4,7 @@ title:  Code
 permalink: /code/
 description: 
 nav: true
-display_categories: [code]
+display_categories: [Competitions]
 horizontal: true
 ---
 <div class="projects">
