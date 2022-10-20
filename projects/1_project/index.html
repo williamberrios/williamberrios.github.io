@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://williamberrios.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   William Berrios  
 
 
-  | Page not found
+  | BNP Paribas Cardif Challenge
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/404.html">
+<link rel="canonical" href="/projects/1_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -161,12 +161,42 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">BNP Paribas Cardif Challenge</h1>
+    <p class="post-description">First Place Solution - Deep Learning, Transformers</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://williamberrios.github.io/">here</a>.</p>
+    <h2 id="objective">Objective:</h2>
+<p><a href="https://www.dominodatalab.com/blog/what-can-100-data-scientists-do-in-one-week-answer-a-lot" target="_blank" rel="noopener noreferrer">Competition</a> organized by <a href="https://www.bnpparibascardif.com/en/" target="_blank" rel="noopener noreferrer">BNP Paribas Cardif</a> &amp; <a href="https://www.dominodatalab.com/" target="_blank" rel="noopener noreferrer">Domino Datalab</a> and consisted in predicting a food’s nutrient score based on its composition.</p>
+
+<p align="center">
+    <img src="/assets/img/DSC-BNP/figure_nutrition.jpg" height="265" width="220" style="max-width: 100%">
+    <img src="/assets/img/DSC-BNP/nutrition_idx.gif" height="265" width="220" style="max-width: 100%">
+</p>
+
+<h2 id="participants">Participants:</h2>
+<p>Around 100 students from Chile, Colombia, Peru and Mexico competed in the Data Science Challenge that was developed in Latin America.</p>
+
+<h2 id="data-available">Data Available:</h2>
+<p>The amount of carbohydrates, protein, vitamins , provenance, type of packaging, place of production, ingredients as text, etc. Download data <a href="https://drive.google.com/drive/folders/1zkY4LemQTTp23WtrIVcA5II_zoUwFmV2?usp=sharing" target="_blank" rel="noopener noreferrer">here</a></p>
+
+<h2 id="solution">Solution</h2>
+<p>All experiements we developed in Kfold validation. See folder 02.Code/</p>
+<ul>
+  <li>First we fine-tuned a <a href="https://arxiv.org/abs/1907.11692" target="_blank" rel="noopener noreferrer">Roberta Transformer</a> only with concatenated text features.</li>
+  <li>After this we trained a lightgbm combining embeddings extracted from the transformer and numerical features.</li>
+  <li>Finally we ensemble kfold predictions for final submission.</li>
+</ul>
+
+<p align="center">
+    <img src="/assets/img/DSC-BNP/BNP-Training-stages.png" style="max-width: 100%">
+</p>
+<p align="center">
+Fig. Training stages: 1. Roberta Finetuning, 2. Kfold - Lightgbm training
+</p>
+
+<h2 id="code">Code</h2>
+<p>See the solution and code in the github <a href="https://github.com/williamberrios/BNP-Paribas-Cardif-Challenge" target="_blank" rel="noopener noreferrer">repository</a></p>
 
   </article>
 

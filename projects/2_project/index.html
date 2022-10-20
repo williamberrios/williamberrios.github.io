@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://williamberrios.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   William Berrios  
 
 
-  | Page not found
+  | Automatic review of reports
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/404.html">
+<link rel="canonical" href="/projects/2_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -161,12 +161,55 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Automatic review of reports</h1>
+    <p class="post-description">Deep Learning, Object Detection, LabelImg</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://williamberrios.github.io/">here</a>.</p>
+    <h2 id="objective">Objective</h2>
+
+<p>The <a href="https://www.kaggle.com/c/datathon-entel-2021-reto1/data" target="_blank" rel="noopener noreferrer">challenge</a> involves developing an object detection and OCR model to automate the review of documents that a technician collects during each telecommunication antenna installation and that are then manually reviewed when they are delivered to their base, which could lead to human error.</p>
+
+<h2 id="description">Description</h2>
+
+<p>For this challenge we are only asked to determine the location of 3 fields of the format (2 signatures and 1 date) and to obtain the handwritten date separated in day month and year.</p>
+
+<p align="center">
+    <img src="/assets/img/DSC-ENTEL/data_locations.jpeg" style="max-width: 100%" width="300" height="400">
+</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>Our solution is “<strong>totally free</strong>” and not depending of any api’s that might involucrate a cost in the near future. It is divided into 3 main parts:</p>
+<ul>
+  <li>First, we label the dates presented in the documents in order to apply supervised object detection on numbers. We used the free available software <a href="https://github.com/tzutalin/labelImg" target="_blank" rel="noopener noreferrer">LabelImg</a>
+</li>
+</ul>
+
+<p align="center">
+    <img src="/assets/img/DSC-ENTEL/labeling.gif" style="max-width: 100%" width="600" height="300">
+</p>
+
+<ul>
+  <li>Second, we developed an image preprocessing module, which consists in image aligment, standarization of orientation, size, proportion and extraction of sub-images (sign, date)</li>
+</ul>
+<p align="center">
+    <img src="/assets/img/DSC-ENTEL/preprocessing.png" style="max-width: 100%" width="600">
+</p>
+<ul>
+  <li>Third, we developed a deep learning module that consists in:
+    <ul>
+      <li>A fine-tuned CNN (DenseNet) for sign presence classification</li>
+      <li>A FasterRCNN architecture for detecting and extracting the numbers and separators that appear on date</li>
+    </ul>
+  </li>
+</ul>
+
+<p align="center">
+    <img src="/assets/img/DSC-ENTEL/application.gif" style="max-width: 100%" width="600">
+</p>
+<h2 id="code">Code</h2>
+<p>See the solution and code in the github <a href="https://github.com/williamberrios/Datathon-Entel-Object-Detection" target="_blank" rel="noopener noreferrer">repository</a></p>
 
   </article>
 
